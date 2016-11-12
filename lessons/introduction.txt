@@ -1,0 +1,16 @@
+
+
+Introduction
+
+It's important to realise that, in giving you access to the file system and network,
+node can be used for more than just creating web servers.
+
+In this series of lessons we are going to use some of node's features to do some
+shell scripting!
+
+A shell script is a program designed to be run by the Unix shell. Typical operations
+performed by shell scripts include file manipulation, program execution, and printing text.
+
+You've likely come across some typical shell commands already. Have you used cat,
+ls, or grep in your terminal before? To start off today, we're going to implement
+our own versions of these commands using javascript.

@@ -1,0 +1,28 @@
+
+
+Exercise 3 - options
+
+Many unix commands have what are called options. Options are arguments you can
+pass to the execution of the command that modify its behaviour. They are typically
+in the format of a dash followed by a lowercase letter.
+
+ls -a for example will show all the directories/files starting with a dot
+(like .gitignore) that will otherwise be hidden when you call the ls command.
+
+Task
+
+Your task is to modify your existing ls command in ls.js so that it can accept an
+option argument.
+
+Specifically: node path_to_ls.js -ex extension. If -ex is passed as first argument,
+your ls command should only print the names of the files in the current directory
+that have the extension specified by the second argument. Your program should do
+its normal behaviour if no arguments are provided.
+
+node ls.js -ex js when called from the root directory should print:
+
+cat.js grep.js ls.js
+
+and node ../ls.js -ex scm from public:
+
+grep.scm, etc.

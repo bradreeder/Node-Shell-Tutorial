@@ -1,0 +1,14 @@
+{
+  "name": "code-school-project",
+  "version": "1.0.0",
+  "description": "rebuilding codeschool",
+  "main": "node/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bradley Reeder",
+  "license": "ISC",
+  "dependencies": {
+    "terminal-menu": "^2.1.1"
+  }
+}

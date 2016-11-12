@@ -1,0 +1,21 @@
+
+
+Exercise 1 - cat
+
+In unix, cat is a command that takes the path to a file as its argument and will
+output the contents of that file to the terminal. It is used like this:
+
+cat path_to_file.extension
+
+Try outputting the contents of index.html in the public folder of this repo to
+the terminal to see what it looks like.
+
+Task
+
+Inside cat.js write a program that when called like this from the terminal
+
+node path_to_cat.js path_to_file.extension
+
+will output the contents of that latter file to the terminal like cat.
+
+Hint: You will need the process object and the fs module.

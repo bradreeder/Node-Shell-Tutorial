@@ -1,0 +1,31 @@
+
+
+Exercise 2 - ls
+
+ls is a command that when called will output the names of all the files and
+directories in the directory it was called from to the terminal. It is called
+like this:
+
+ls
+
+Try using ls in one of the folders of this repo to see what it looks like.
+
+Task
+
+Inside ls.js write a program that when called like this from the terminal
+node path_to_ls.js will output the names of all the files and directories in the
+directory you called from to the terminal.
+
+Calling node ls.js from the lesson-1 folder of this repo should print:
+
+cat.js grep.js ls.js public
+
+Calling node ../ls.js from the public folder should print:
+
+grep.scm index.html solutions.js, etc.
+
+Don't worry about being exact with the spacing, just print them on the same line
+with some spacing.
+
+Hint: you're going to need the method process.cwd() to access the directory your
+node command was called from. (You can't say I'm cryptic!).
